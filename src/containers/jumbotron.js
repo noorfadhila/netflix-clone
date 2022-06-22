@@ -2,7 +2,7 @@ import React from 'react';
 import jumboData from '../fixtures/jumbo';
 import { Jumbotron } from '../components';
 
-function JumbotronContainer() {
+export function JumbotronContainer() {
     return (
       <Jumbotron.Container>
         {jumboData.map((item) => (
@@ -18,6 +18,4 @@ function JumbotronContainer() {
         ))}
       </Jumbotron.Container>
     );
-  }
-  
-  export default JumbotronContainer;
+}
