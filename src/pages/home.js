@@ -1,14 +1,14 @@
 import React from "react";
-import { FaqsContainer } from '../containers/faqs';
-import { FooterContainer } from '../containers/footer';
+import { FaqsContainer } from "../containers/faqs";
+import { FooterContainer } from "../containers/footer";
 import { HeaderContainer } from "../containers/header";
-import { JumbotronContainer } from '../containers/jumbotron';
+import { JumbotronContainer } from "../containers/jumbotron";
 import { Feature, OptForm } from "../components";
 
 export default function Home() {
     return(
         <>
-            <HeaderContainer >
+            <HeaderContainer>
                 <Feature>
                     <Feature.Title>
                         Unlimeted films, TV Programmes, and more.
